@@ -5,11 +5,16 @@ local opt = vim.opt
 opt.relativenumber = true
 opt.number = true -- sets absolute line number
 
+opt.foldcolumn = "1"
+opt.foldlevel = 99
+opt.foldlevelstart = 99
+opt.foldenable = true
+
 -- tabs & indentation
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
-opt.autoindent= true
+opt.autoindent = true
 
 opt.wrap = false
 
@@ -25,7 +30,8 @@ opt.signcolumn = "yes"
 
 opt.backspace = "indent,eol,start"
 
-opt.colorcolumn = "80"
+-- print width column
+-- opt.colorcolumn = "80"
 opt.scrolloff = 8
 
 opt.clipboard:append("unnamedplus")
