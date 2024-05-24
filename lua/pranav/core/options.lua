@@ -5,10 +5,10 @@ local opt = vim.opt
 opt.relativenumber = true
 opt.number = true -- sets absolute line number
 
-opt.foldcolumn = "1"
-opt.foldlevel = 99
-opt.foldlevelstart = 99
-opt.foldenable = true
+-- opt.foldcolumn = "1"
+-- opt.foldlevel = 99
+-- opt.foldlevelstart = 99
+-- opt.foldenable = true
 
 -- tabs & indentation
 opt.tabstop = 2

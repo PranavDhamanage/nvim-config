@@ -32,3 +32,7 @@ keymap.set("n", "<leader>Y", [["+Y]])
 keymap.set("n", "Q", "<nop>")
 
 keymap.set("n", "<leader>f", vim.lsp.buf.format)
+
+-- keep indent
+keymap.set("v", "<", "<gv")
+keymap.set("v", ">", ">gv")
